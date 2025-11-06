@@ -151,6 +151,20 @@ declare module 'astro:content' {
   collection: "pages";
   data: any
 } & { render(): Render[".mdoc"] };
+"speaking.mdoc": {
+	id: "speaking.mdoc";
+  slug: "speaking";
+  body: string;
+  collection: "pages";
+  data: any
+} & { render(): Render[".mdoc"] };
+"writing.mdoc": {
+	id: "writing.mdoc";
+  slug: "writing";
+  body: string;
+  collection: "pages";
+  data: any
+} & { render(): Render[".mdoc"] };
 };
 "portfolioGroups": {
 "all.mdoc": {
